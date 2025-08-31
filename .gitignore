@@ -1,0 +1,41 @@
+# FXGrit App .gitignore
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Logs and temp files
+*.log
+*.sqlite3
+*.db
+*.pid
+*.gz
+*.zip
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
